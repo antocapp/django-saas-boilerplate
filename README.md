@@ -58,7 +58,7 @@ npm i
 npm start
 ```
 
-An error occured (Similar to (this)[https://github.com/gatsbyjs/gatsby/issues/11406]), then I increased watchers limit:
+An error occured (Similar to [this](https://github.com/gatsbyjs/gatsby/issues/11406), then I increased watchers limit:
 
 ```
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
